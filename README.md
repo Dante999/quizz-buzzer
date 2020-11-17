@@ -2,6 +2,8 @@
 A two player buzzer game which detects which of the players hits his button
 first. This is typically used for quiz games. 
 
+![photo of the project](files/quizz-buzzer.jpg)
+
 When the players hit their button, a beep sound is played, the button inputs are
 locked and the indicator leds
 start flickering (~1 second). After that, the led of the player which
@@ -9,6 +11,7 @@ hits his button faster is on, the led of the slower one is off. The winner led
 is shown for about 1.5 seconds and during this time two short beep pulses and
 one longer is played. The leds turn off and the button inputs are unlocked
 again, ready for a new round. 
+
 
 ## Motivation
 This project was a last minute build for game night I had planned for my friends
@@ -23,7 +26,6 @@ So the whole reason why I created this project was just because I needed
 anything to detect for the quiz games which player was faster and which one must
 be punished with a booze shot :)
 
-![photo of the project](files/quizz-buzzer.jpg)
 
 # Schematic
 
